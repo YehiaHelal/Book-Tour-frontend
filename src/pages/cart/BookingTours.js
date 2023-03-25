@@ -210,7 +210,7 @@ const BookingTours = () => {
                       <p className="price">Price: ${item.price}</p>
 
                       <p className="rating">Rating: {item.ratingsAverage}</p>
-                      <p>Bookings Number: {item.numberofitem}</p>
+                      <p>Number of booking: {item.numberofitem}</p>
                       <p></p>
                       <button
                         onClick={() => {
