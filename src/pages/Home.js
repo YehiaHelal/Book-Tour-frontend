@@ -23,7 +23,7 @@ const Home = () => {
   // console.log();
 
   useEffect(() => {
-    const fetchWorkouts = async () => {
+    const fetchTours = async () => {
       const response = await fetch(
         "https://book-tour-api-production.up.railway.app/api/tours/"
       );
@@ -35,7 +35,7 @@ const Home = () => {
       }
     };
 
-    fetchWorkouts();
+    fetchTours();
   }, [dispatcho]);
 
   useEffect(() => {

@@ -86,7 +86,7 @@ export default function RootLayout() {
   //   numberOfItems = localStorageCartAllItems.length;
   // }
 
-  useEffect(() => {}, [localStorageCartAllItems, numberOfItems]);
+  // useEffect(() => {}, [localStorageCartAllItems, numberOfItems]);
 
   return (
     <div className="root-layout">

@@ -33,7 +33,7 @@ const ReviewForum = () => {
   }, [data]);
 
   useEffect(() => {
-    const fetchWorkouts = async () => {
+    const fetchTours = async () => {
       const response = await fetch(
         "https://book-tour-api-production.up.railway.app/api/tours/"
       );
@@ -45,7 +45,7 @@ const ReviewForum = () => {
       }
     };
 
-    fetchWorkouts();
+    fetchTours();
   }, [dispatcho]);
 
   const toursNames = allItems.map((item) => {

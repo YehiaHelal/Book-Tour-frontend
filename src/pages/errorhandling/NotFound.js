@@ -19,11 +19,6 @@ export default function NotFound() {
             Go to the <NavLink to="/">Homepage</NavLink>.
           </p>
           <p></p>
-
-          <h3>
-            If u were logged in and this error happened, Please try to logout
-            and login again
-          </h3>
         </div>
       </div>
       <div className="at-the-end">
