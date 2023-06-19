@@ -18,7 +18,7 @@ export default function RootLayout() {
   const LogoutFunctionHandler = async () => {
     // fetch request and if ok the cookie will be removed
     const datas = await axios.post(
-      "https://book-tour-api-production.up.railway.app/api/users/logout",
+      "https://tourapi-x6d5.onrender.com/api/users/logout",
       {},
       {
         withCredentials: true,
@@ -130,7 +130,7 @@ export default function RootLayout() {
               className="search-button"
               to={
                 searchedNameobject
-                  ? "https://book-tour-frontend-production.up.railway.app/" + id
+                  ? "https://book-tour-frontend.vercel.app/" + id
                   : ""
               }
               onClick={() => {

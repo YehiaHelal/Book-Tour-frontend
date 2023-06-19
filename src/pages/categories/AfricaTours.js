@@ -10,7 +10,7 @@ const AfricaTours = () => {
   useEffect(() => {
     const fetchWorkouts = async () => {
       const response = await fetch(
-        "https://book-tour-api-production.up.railway.app/api/tours/"
+        "https://tourapi-x6d5.onrender.com/api/tours/"
       );
       const json = await response.json();
 

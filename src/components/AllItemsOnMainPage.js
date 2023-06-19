@@ -222,12 +222,7 @@ const AllItemsOnMainPage = (props) => {
                 <div className="side-by-side-text-up-down">
                   <p className="price">Price: ${item.price}</p>
 
-                  <a
-                    href={
-                      "https://book-tour-frontend-production.up.railway.app/" +
-                      item._id
-                    }
-                  >
+                  <a href={"https://book-tour-frontend.vercel.app/" + item._id}>
                     <button>More Details</button>
                   </a>
                   <p className="rating">Rating: {item.ratingsAverage}</p>

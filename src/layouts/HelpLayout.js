@@ -16,7 +16,7 @@ export default function HelpLayout() {
 
             <nav>
               <NavLink to="faq">View the FAQ</NavLink>
-              <NavLink to="https://book-tour-frontend-production.up.railway.app/contact">
+              <NavLink to="https://book-tour-frontend.vercel.app/contact">
                 Contact Us
               </NavLink>
             </nav>

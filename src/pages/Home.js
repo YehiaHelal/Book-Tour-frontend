@@ -25,7 +25,7 @@ const Home = () => {
   useEffect(() => {
     const fetchTours = async () => {
       const response = await fetch(
-        "https://book-tour-api-production.up.railway.app/api/tours/"
+        "https://tourapi-x6d5.onrender.com/api/tours/"
       );
 
       const json = await response.json();
@@ -43,7 +43,7 @@ const Home = () => {
       const checkToken = async () => {
         try {
           const datas = await axios.post(
-            "https://book-tour-api-production.up.railway.app/api/users/checktoken",
+            "https://tourapi-x6d5.onrender.com/api/users/checktoken",
             {
               message: "checkme",
             },
@@ -99,7 +99,7 @@ const Home = () => {
 export default Home;
 
 // export const allItemLoader = async () => {
-//   const res = await fetch("https://book-tour-frontend-production.up.railway.app/api/items/");
+//   const res = await fetch("https://book-tour-frontend.vercel.app/api/items/");
 
 //   return res.json();
 // };

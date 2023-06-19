@@ -35,7 +35,7 @@ const ReviewForum = () => {
   useEffect(() => {
     const fetchTours = async () => {
       const response = await fetch(
-        "https://book-tour-api-production.up.railway.app/api/tours/"
+        "https://tourapi-x6d5.onrender.com/api/tours/"
       );
 
       const json = await response.json();
@@ -73,7 +73,7 @@ const ReviewForum = () => {
   // useEffect(() => {
   //   const fetchWorkouts = async () => {
   //     const response = await fetch(
-  //       "https://book-tour-frontend-production.up.railway.app/api/reviews/getuserreviews"
+  //       "https://book-tour-frontend.vercel.app/api/reviews/getuserreviews"
   //     );
   //     const json = await response.json();
 
@@ -166,7 +166,7 @@ export default ReviewForum;
 // data loader
 export const ReviewForumPageLoader = async ({}) => {
   const res = await fetch(
-    "https://book-tour-api-production.up.railway.app/api/reviews/getuserreviews"
+    "https://tourapi-x6d5.onrender.com/api/reviews/getuserreviews"
   );
 
   if (!res.ok) {
@@ -185,7 +185,7 @@ export const ReviewForumAction = async ({ request }) => {
   };
 
   const datas = await axios.post(
-    "https://book-tour-api-production.up.railway.app/api/reviews/addreview",
+    "https://tourapi-x6d5.onrender.com/api/reviews/addreview",
     {
       reviewdetails,
     },

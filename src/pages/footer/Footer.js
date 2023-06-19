@@ -10,31 +10,25 @@ export default function Footer() {
         </div>
         <div className="footer-row">
           <div>
-            <a href="https://book-tour-frontend-production.up.railway.app/about">
-              About Us
-            </a>
+            <a href="https://book-tour-frontend.vercel.app/about">About Us</a>
           </div>
 
           <div>
-            <a href="https://book-tour-frontend-production.up.railway.app/contact">
-              Contact
-            </a>
+            <a href="https://book-tour-frontend.vercel.app/contact">Contact</a>
           </div>
           <div>
-            <a href="https://book-tour-frontend-production.up.railway.app/help">
-              FAQ Page
-            </a>
+            <a href="https://book-tour-frontend.vercel.app/help">FAQ Page</a>
           </div>
         </div>
         <div className="footer-row">
           <div>
-            <a href="https://book-tour-frontend-production.up.railway.app/contact">
+            <a href="https://book-tour-frontend.vercel.app/contact">
               Our Services
             </a>
           </div>
 
           <div>
-            <a href="https://book-tour-frontend-production.up.railway.app/contact">
+            <a href="https://book-tour-frontend.vercel.app/contact">
               Our branches
             </a>
           </div>

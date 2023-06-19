@@ -143,7 +143,7 @@ const BookingTours = () => {
   const BookingFunctionHandler = async () => {
     // fetch request and if ok the cookie will be removed
     const response = await axios.post(
-      "https://book-tour-api-production.up.railway.app/api/orders/cartorder",
+      "https://tourapi-x6d5.onrender.com/api/orders/cartorder",
       { OrderDetails },
       {
         withCredentials: true,
@@ -362,8 +362,7 @@ const BookingTours = () => {
                       </button>
                       <a
                         href={
-                          "https://book-tour-frontend-production.up.railway.app/" +
-                          item._id
+                          "https://book-tour-frontend.vercel.app/" + item._id
                         }
                       >
                         <button>More Details</button>

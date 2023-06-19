@@ -118,12 +118,7 @@ export default function ItemSearch() {
             <div className="side-by-side-text-up-down">
               <p className="price">Price: ${item.price}</p>
 
-              <a
-                href={
-                  "https://book-tour-frontend-production.up.railway.app/" +
-                  item._id
-                }
-              >
+              <a href={"https://book-tour-frontend.vercel.app/" + item._id}>
                 <button>More Details</button>
               </a>
               <p className="rating">Rating: {item.ratingsAverage}</p>
@@ -171,9 +166,7 @@ export default function ItemSearch() {
 export const itemSearchLoader = async ({ params }) => {
   const { id } = params;
 
-  const res = await fetch(
-    "https://book-tour-api-production.up.railway.app/api/tours/" + id
-  );
+  const res = await fetch("https://tourapi-x6d5.onrender.com/api/tours/" + id);
 
   if (!res.ok) {
     throw Error("Could not find that item");

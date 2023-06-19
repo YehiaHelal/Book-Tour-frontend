@@ -121,7 +121,7 @@ export const SignupAction = async ({ request }) => {
   // const dataaa = async () => {
   try {
     const datas = await axios.post(
-      `https://book-tour-api-production.up.railway.app/api/users/signup/`,
+      `https://tourapi-x6d5.onrender.com/api/users/signup/`,
       { submission },
       {
         withCredentials: true,
@@ -144,7 +144,7 @@ export const SignupAction = async ({ request }) => {
 };
 
 // const response = await axios({
-//   url: "https://book-tour-frontend-production.up.railway.app/api/users/signup/",
+//   url: "https://book-tour-frontend.vercel.app/api/users/signup/",
 //   method: "POST",
 //   body: { submission },
 // headers: {
@@ -152,7 +152,7 @@ export const SignupAction = async ({ request }) => {
 // },
 // });
 
-// const response = await fetch("https://book-tour-frontend-production.up.railway.app/api/users/signup/", {
+// const response = await fetch("https://book-tour-frontend.vercel.app/api/users/signup/", {
 //   method: "POST",
 //   body: JSON.stringify(submission),
 //   headers: {
@@ -178,7 +178,7 @@ export const SignupAction = async ({ request }) => {
 // );
 
 // const sendingRequest = async () => {
-//   const response = await fetch("https://book-tour-frontend-production.up.railway.app/api/users/");
+//   const response = await fetch("https://book-tour-frontend.vercel.app/api/users/");
 
 //   const json = await response.json();
 

@@ -122,7 +122,7 @@ export const LoginAction = async ({ request }) => {
 
   try {
     const datas = await axios.post(
-      "https://book-tour-api-production.up.railway.app/api/users/login",
+      "https://tourapi-x6d5.onrender.com/api/users/login",
       {
         submission,
       },
@@ -158,7 +158,7 @@ export const LoginAction = async ({ request }) => {
 // );
 
 // const sendingRequest = async () => {
-//   const response = await fetch("https://book-tour-frontend-production.up.railway.app/api/users/");
+//   const response = await fetch("https://book-tour-frontend.vercel.app/api/users/");
 
 //   const json = await response.json();
 
