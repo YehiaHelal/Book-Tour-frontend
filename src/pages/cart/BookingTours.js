@@ -143,7 +143,7 @@ const BookingTours = () => {
   const BookingFunctionHandler = async () => {
     // fetch request and if ok the cookie will be removed
     const response = await axios.post(
-      "https://tourapi-x6d5.onrender.com/api/orders/cartorder",
+      "https://www.rtourbk.shoponlinemarket.cloud/api/orders/cartorder",
       { OrderDetails },
       {
         withCredentials: true,

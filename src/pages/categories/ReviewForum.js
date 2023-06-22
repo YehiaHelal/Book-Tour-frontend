@@ -35,7 +35,7 @@ const ReviewForum = () => {
   useEffect(() => {
     const fetchTours = async () => {
       const response = await fetch(
-        "https://tourapi-x6d5.onrender.com/api/tours/"
+        "https://www.rtourbk.shoponlinemarket.cloud/api/tours/"
       );
 
       const json = await response.json();
@@ -166,7 +166,7 @@ export default ReviewForum;
 // data loader
 export const ReviewForumPageLoader = async ({}) => {
   const res = await fetch(
-    "https://tourapi-x6d5.onrender.com/api/reviews/getuserreviews"
+    "https://www.rtourbk.shoponlinemarket.cloud/api/reviews/getuserreviews"
   );
 
   if (!res.ok) {
@@ -185,7 +185,7 @@ export const ReviewForumAction = async ({ request }) => {
   };
 
   const datas = await axios.post(
-    "https://tourapi-x6d5.onrender.com/api/reviews/addreview",
+    "https://www.rtourbk.shoponlinemarket.cloud/api/reviews/addreview",
     {
       reviewdetails,
     },

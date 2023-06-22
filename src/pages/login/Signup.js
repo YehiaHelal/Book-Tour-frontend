@@ -121,7 +121,7 @@ export const SignupAction = async ({ request }) => {
   // const dataaa = async () => {
   try {
     const datas = await axios.post(
-      `https://tourapi-x6d5.onrender.com/api/users/signup/`,
+      `https://www.rtourbk.shoponlinemarket.cloud/api/users/signup/`,
       { submission },
       {
         withCredentials: true,

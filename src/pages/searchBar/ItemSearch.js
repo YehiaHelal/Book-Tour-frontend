@@ -166,7 +166,9 @@ export default function ItemSearch() {
 export const itemSearchLoader = async ({ params }) => {
   const { id } = params;
 
-  const res = await fetch("https://tourapi-x6d5.onrender.com/api/tours/" + id);
+  const res = await fetch(
+    "https://www.rtourbk.shoponlinemarket.cloud/api/tours/" + id
+  );
 
   if (!res.ok) {
     throw Error("Could not find that item");
